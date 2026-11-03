@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <main class="calculator" id="calculator">
+
+      <header class="calculator-header" id="calculator-header">
+        <h1 class="calculator-title" id="calculator-title">Calculator</h1>
+
+        <button
+          type="button"
+          class="theme-toggle"
+          id="theme-toggle"
+          value="toggle-theme"
+          aria-label="Switch to dark mode"
+          aria-pressed="false">
+          <span class="theme-icon" id="theme-icon">☾</span>
+        </button>
+      </header>
+
+      <section class="calculator-display" id="calculator-display">
+        <div class="display-expression" id="display-expression"></div>
+        <div class="display-result" id="display-result">0</div>
+      </section>
+
+      <section class="calculator-keypad" id="calculator-keypad">
+
+        <button type="button" class="calculator-button button-clear"
+          id="button-clear" value="clear">AC</button>
+
+        <button type="button" class="calculator-button button-delete"
+          id="button-delete" value="delete">DEL</button>
+
+        <button type="button" class="calculator-button button-percent"
+          id="button-percent" value="%">%</button>
+
+        <button type="button" class="calculator-button button-operator"
+          id="button-divide" value="/">÷</button>
+
+        <button type="button" class="calculator-button button-number"
+          id="button-number-7" value="7">7</button>
+
+        <button type="button" class="calculator-button button-number"
+          id="button-number-8" value="8">8</button>
+
+        <button type="button" class="calculator-button button-number"
+          id="button-number-9" value="9">9</button>
+
+        <button type="button" class="calculator-button button-operator"
+          id="button-multiply" value="*">×</button>
+
+        <button type="button" class="calculator-button button-number"
+          id="button-number-4" value="4">4</button>
+
+        <button type="button" class="calculator-button button-number"
+          id="button-number-5" value="5">5</button>
+
+        <button type="button" class="calculator-button button-number"
+          id="button-number-6" value="6">6</button>
+
+        <button type="button" class="calculator-button button-operator"
+          id="button-subtract" value="-">−</button>
+
+        <button type="button" class="calculator-button button-number"
+          id="button-number-1" value="1">1</button>
+
+        <button type="button" class="calculator-button button-number"
+          id="button-number-2" value="2">2</button>
+
+        <button type="button" class="calculator-button button-number"
+          id="button-number-3" value="3">3</button>
+
+        <button type="button" class="calculator-button button-operator"
+          id="button-add" value="+">+</button>
+
+        <button type="button" class="calculator-button button-number button-zero"
+          id="button-number-0" value="0">0</button>
+
+        <button type="button" class="calculator-button button-decimal"
+          id="button-decimal" value=".">.</button>
+
+        <button type="button" class="calculator-button button-equals"
+          id="button-equals" value="=">=</button>
+
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
