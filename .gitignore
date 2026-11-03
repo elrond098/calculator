@@ -2,6 +2,7 @@
 node_modules/
 
 # Test and coverage artifacts
+/tests/
 coverage/
 .vitest/
 test-results/
